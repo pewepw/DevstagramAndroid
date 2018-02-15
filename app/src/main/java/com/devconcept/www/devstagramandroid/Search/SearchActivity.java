@@ -1,4 +1,4 @@
-package com.devconcept.www.devstagramandroid;
+package com.devconcept.www.devstagramandroid.Search;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.devconcept.www.devstagramandroid.R;
 import com.devconcept.www.devstagramandroid.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
@@ -14,9 +15,9 @@ import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
  * Created by harry on 15/02/2018.
  */
 
-public class LikesActivity extends AppCompatActivity {
-    private static final String TAG = "LikesActivity";
-    private static final int ACTIVITY_NUM = 3;
+public class SearchActivity extends AppCompatActivity {
+    private static final String TAG = "SearchActivity";
+    private static final int ACTIVITY_NUM = 1;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

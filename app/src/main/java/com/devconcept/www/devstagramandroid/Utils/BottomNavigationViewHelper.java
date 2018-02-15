@@ -7,12 +7,12 @@ import android.support.design.widget.BottomNavigationView;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.devconcept.www.devstagramandroid.HomeActivity;
-import com.devconcept.www.devstagramandroid.LikesActivity;
-import com.devconcept.www.devstagramandroid.ProfileActivity;
+import com.devconcept.www.devstagramandroid.Home.HomeActivity;
+import com.devconcept.www.devstagramandroid.Likes.LikesActivity;
+import com.devconcept.www.devstagramandroid.Profile.ProfileActivity;
 import com.devconcept.www.devstagramandroid.R;
-import com.devconcept.www.devstagramandroid.SearchActivity;
-import com.devconcept.www.devstagramandroid.ShareActivity;
+import com.devconcept.www.devstagramandroid.Search.SearchActivity;
+import com.devconcept.www.devstagramandroid.Share.ShareActivity;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 /**

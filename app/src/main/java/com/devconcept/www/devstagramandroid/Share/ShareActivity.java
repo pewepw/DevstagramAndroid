@@ -1,4 +1,4 @@
-package com.devconcept.www.devstagramandroid;
+package com.devconcept.www.devstagramandroid.Share;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.devconcept.www.devstagramandroid.R;
 import com.devconcept.www.devstagramandroid.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
