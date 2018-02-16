@@ -13,7 +13,7 @@ import com.devconcept.www.devstagramandroid.R;
  * Created by harry on 15/02/2018.
  */
 
-public class CameraFragment extends Fragment {
+public class CameraFragment extends android.support.v4.app.Fragment {
     private static final String TAG = "CameraFragment";
 
     @Nullable

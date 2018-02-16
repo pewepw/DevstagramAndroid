@@ -13,7 +13,7 @@ import com.devconcept.www.devstagramandroid.R;
  * Created by harry on 15/02/2018.
  */
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends android.support.v4.app.Fragment {
     private static final String TAG = "HomeFragment";
 
     @Nullable
