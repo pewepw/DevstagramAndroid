@@ -1,4 +1,4 @@
-package com.devconcept.www.devstagramandroid.Home;
+package com.devconcept.www.devstagramandroid.Utils;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.devconcept.www.devstagramandroid.R;
 import com.devconcept.www.devstagramandroid.Utils.BottomNavigationViewHelper;
+import com.devconcept.www.devstagramandroid.Utils.SectionPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class HomeActivity extends AppCompatActivity {
