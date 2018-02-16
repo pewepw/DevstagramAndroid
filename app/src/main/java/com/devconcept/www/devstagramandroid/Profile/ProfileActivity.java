@@ -44,7 +44,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: navigating to account settings");
-                Intent intent = new Intent(this, AccountSettingActivity.class);
+                Intent intent = new Intent(ProfileActivity.this, AccountSettingActivity.class);
                 startActivity(intent);
             }
         });
