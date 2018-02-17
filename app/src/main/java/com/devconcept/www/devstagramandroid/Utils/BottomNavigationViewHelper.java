@@ -37,23 +37,23 @@ public class BottomNavigationViewHelper {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.ic_house:
-                        Intent intent1 = new Intent(context, HomeActivity.class);
+                        Intent intent1 = new Intent(context, HomeActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent1);
                         break;
                     case R.id.ic_search:
-                        Intent intent2 = new Intent(context, SearchActivity.class);
+                        Intent intent2 = new Intent(context, SearchActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent2);
                         break;
                     case R.id.ic_circle:
-                        Intent intent3 = new Intent(context, ShareActivity.class);
+                        Intent intent3 = new Intent(context, ShareActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent3);
                         break;
                     case R.id.ic_alert:
-                        Intent intent4 = new Intent(context, LikesActivity.class);
+                        Intent intent4 = new Intent(context, LikesActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent4);
                         break;
                     case R.id.ic_setting:
-                        Intent intent5 = new Intent(context, ProfileActivity.class);
+                        Intent intent5 = new Intent(context, ProfileActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent5);
                         break;
                 }
